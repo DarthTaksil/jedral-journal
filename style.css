@@ -1,0 +1,21 @@
+body {
+  background: #fdf6e3;
+  margin: 0;
+  font-family: 'IM Fell English SC', serif;
+}
+
+#flipbook {
+  width: 800px;
+  height: 500px;
+  margin: 50px auto;
+  display: none;
+}
+
+.page {
+  background: #978a65;
+  background-size: cover;
+  padding: 30px;
+  font-size: 20px;
+  color: #3e2e1c;
+  box-shadow: 0 0 8px rgba(0,0,0,0.4);
+}
