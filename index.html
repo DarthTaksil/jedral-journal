@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Character Journal</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div id="flipbook">
-    <div class="page">Day 1: We left the village under a moonless sky...</div>
-    <div class="page">Day 2: The forest whispered things I dared not repeat.</div>
-    <!-- Add more pages here -->
-  </div>
+<div class="book">
+  <div class="page single" id="page"></div>
+</div>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/turn.js@4/turn.min.js"></script>
+<button id="prev">◀ Prev</button>
+<span id="page-indicator">Page 1</span>
+<button id="next">Next ▶</button>
+
   <script src="script.js"></script>
 </body>
 </html>
